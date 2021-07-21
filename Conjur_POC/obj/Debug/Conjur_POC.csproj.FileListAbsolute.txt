@@ -1,0 +1,10 @@
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\bin\Debug\Conjur_POC.exe.config
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\bin\Debug\Conjur_POC.exe
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\bin\Debug\Conjur_POC.pdb
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\obj\Debug\Conjur_POC.csproj.AssemblyReference.cache
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\obj\Debug\Conjur_POC.csproj.CoreCompileInputs.cache
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\obj\Debug\Conjur_POC.exe
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\obj\Debug\Conjur_POC.pdb
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\bin\Debug\conjur-api.dll
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\bin\Debug\conjur-api.pdb
+C:\Users\pw192294\source\repos\Conjur_POC\Conjur_POC\obj\Debug\Conjur_POC.csproj.CopyComplete
