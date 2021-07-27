@@ -34,6 +34,7 @@ namespace Conjur_POC
             Policy policy = admin.Policy("root");
             using (MemoryStream ms = new MemoryStream())
             {
+
                 using (StreamWriter sw = new StreamWriter(ms))
                 {
 
