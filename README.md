@@ -19,7 +19,7 @@ Quickstart with the CLI https://github.com/cyberark/conjur-cli \
 | Add Conjur root certificate to system trust store    | client.TrustedCertificates.ImportPem (string certPath) |   / |
 | List Conjur variables     | IEnumerable<Variable> client.ListVariables(string query = null)      |   conjur list  |
 | Create an host | Host client.CreateHost(string name, string hostFactoryToken)      |   In policy.yml |
-| Create a Conjur policy object     | Policy client.Policy(string policyName)      |   / |
+| Create a Conjur policy object     | Policy client.Policy(string policyName)      |   conjur [policy](https://github.com/cyberark/conjur-cli#conjur-policy) |
 |Load policy into Conjur     | policy.LoadPolicy(Stream policyContent)      |  conjur policy load root policy/nameOfFile.yml > nameOfFileThatWillBeGenerated |
 | Instantiate a Variable object      | Variable client.Variable(string name)      |   / |
 | Check if the current client/entity has the specified privilege on this variable | Boolean variable.Check(string privilege)      |   / |
