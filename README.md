@@ -2,11 +2,14 @@
 
 In is POC we create a Conjur OSS environment and retrieve a secret from Conjur from a .Net Framework 4.5 Console application.
 
-Quick start setting up Conjur OSS environment with Docker : https://www.conjur.org/get-started/
-About Conjur OSS : https://docs.conjur.org/Latest/en/Content/Overview/Conjur-OSS-Suite-Overview.html
+Quick start setting up Conjur OSS environment with Docker : https://www.conjur.org/get-started/ \
+About Conjur OSS : https://docs.conjur.org/Latest/en/Content/Overview/Conjur-OSS-Suite-Overview.html \
 
 # Conjur Dotnet API and CLI Documentation 
-Refer to for more information :https://www.conjur.org/get-started/quick-start/oss-environment/ and https://github.com/cyberark/conjur-api-dotnet
+Refer to for more information : \
+Quickstart with Docker containers : https://www.conjur.org/get-started/quick-start/oss-environment/ \
+Quickstart with the dotnet Api : https://github.com/cyberark/conjur-api-dotnet \
+Quickstart with the CLI https://github.com/cyberark/conjur-cli \
 
 
 | Use case        | Dotnet API           | Conjur CLI  |
