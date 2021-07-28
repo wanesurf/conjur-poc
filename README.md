@@ -105,3 +105,5 @@ refer to for more information : https://docs.conjur.org/Latest/en/Content/Operat
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
+  
+  Exemple of policy : https://github.com/cyberark/conjur-quickstart/blob/main/conf/policy/BotApp.yml
