@@ -23,8 +23,8 @@ namespace Conjur_POC
             //retrieve clients created with CLI (policy)
             Client conjurClientDave = new Client("http://localhost:8080", "myConjurAccount");
             Client admin = new Client("http://localhost:8080", "myConjurAccount");
-            //Login as Dave (human)
-            conjurClientDave.LogIn("Dave@BotApp", "3tqnbp0q3az402gv3m9736gj32j17vhxa96amqay31w9xaq1zmx3pk");
+            //Login as Dave (human)3tqnbp0q3az402gv3m9736gj32j17vhxa96amqay31w9xaq1zmx3pk
+            conjurClientDave.LogIn("Dave@BotApp", "");
             admin.LogIn("admin", "3mrc3h72yh2t781exb4ga3nyn2br30g825r1x25xj38292001v8khd5");
 
 
@@ -55,7 +55,7 @@ namespace Conjur_POC
             //variable creation
              Variable conjurVariable = admin.Variable("secretSimon");
             //adding secret
-             conjurVariable.AddSecret(Encoding.ASCII.GetBytes("secretFromSimon"));
+             conjurVariable.AddSecret(Encoding.ASCII.GetBytes("thisIsANewSecretFromSimon"));
             //show secret
             Console.WriteLine(conjurVariable.GetValue());
 
