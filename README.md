@@ -2,11 +2,14 @@
 
 In is POC we create a Conjur OSS environment and retrieve a secret from Conjur from a .Net Framework 4.5 Console application.
 
-Quick start setting up Conjur OSS environment with Docker : https://www.conjur.org/get-started/
-About Conjur OSS : https://docs.conjur.org/Latest/en/Content/Overview/Conjur-OSS-Suite-Overview.html
+Quick start setting up Conjur OSS environment with Docker : https://www.conjur.org/get-started/ \
+About Conjur OSS : https://docs.conjur.org/Latest/en/Content/Overview/Conjur-OSS-Suite-Overview.html \
 
 # Conjur Dotnet API and CLI Documentation 
-Refer to for more information :https://www.conjur.org/get-started/quick-start/oss-environment/ and https://github.com/cyberark/conjur-api-dotnet
+Refer to for more information : \
+Quickstart with Docker containers : https://www.conjur.org/get-started/quick-start/oss-environment/ \
+Quickstart with the dotnet Api : https://github.com/cyberark/conjur-api-dotnet \
+Quickstart with the CLI https://github.com/cyberark/conjur-cli \
 
 
 | Use case        | Dotnet API           | Conjur CLI  |
@@ -16,7 +19,7 @@ Refer to for more information :https://www.conjur.org/get-started/quick-start/os
 | Add Conjur root certificate to system trust store    | client.TrustedCertificates.ImportPem (string certPath) |   / |
 | List Conjur variables     | IEnumerable<Variable> client.ListVariables(string query = null)      |   conjur list  |
 | Create an host | Host client.CreateHost(string name, string hostFactoryToken)      |   In policy.yml |
-| Create a Conjur policy object     | Policy client.Policy(string policyName)      |   / |
+| Create a Conjur policy object     | Policy client.Policy(string policyName)      |   conjur [policy](https://github.com/cyberark/conjur-cli#conjur-policy) |
 |Load policy into Conjur     | policy.LoadPolicy(Stream policyContent)      |  conjur policy load root policy/nameOfFile.yml > nameOfFileThatWillBeGenerated |
 | Instantiate a Variable object      | Variable client.Variable(string name)      |   / |
 | Check if the current client/entity has the specified privilege on this variable | Boolean variable.Check(string privilege)      |   / |
@@ -105,3 +108,5 @@ refer to for more information : https://docs.conjur.org/Latest/en/Content/Operat
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
+  
+  Exemple of policy : https://github.com/cyberark/conjur-quickstart/blob/main/conf/policy/BotApp.yml
