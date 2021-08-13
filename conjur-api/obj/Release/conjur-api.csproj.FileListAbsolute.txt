@@ -1,0 +1,3 @@
+C:\Users\pw192294\Source\Repos\conjur-api-dotnet\conjur-api\bin\Release\conjur-api.dll
+C:\Users\pw192294\Source\Repos\conjur-api-dotnet\conjur-api\obj\Release\conjur-api.csproj.CoreCompileInputs.cache
+C:\Users\pw192294\Source\Repos\conjur-api-dotnet\conjur-api\obj\Release\conjur-api.dll

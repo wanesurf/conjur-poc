@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Conjur;
+
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.IO;
+using Conjur;
 
 namespace Conjur_POC
 {
@@ -22,15 +23,16 @@ namespace Conjur_POC
 
             //retrieve clients created with CLI (policy)
             Client conjurClientDave = new Client("http://localhost:8080", "myConjurAccount");
-            Client admin = new Client("http://localhost:8080", "myConjurAccount");
             //Login as Dave (human)3tqnbp0q3az402gv3m9736gj32j17vhxa96amqay31w9xaq1zmx3pk
             conjurClientDave.LogIn("Dave@BotApp", "");
-            admin.LogIn("admin", "3mrc3h72yh2t781exb4ga3nyn2br30g825r1x25xj38292001v8khd5");
+
+            Client admin = new Client("https://conjur-oss-conjur.apps.pwclabokd.io", "conjurAdm");
+            admin.LogIn("admin", "7g60tt11vkefyqsxce2v6gwc6qtxyaasvjmpx36qd70v1nfbyf2");
 
 
 
             //Load policy to root with request variable Id
-            
+
             Policy policy = admin.Policy("root");
             using (MemoryStream ms = new MemoryStream())
             {
@@ -62,12 +64,12 @@ namespace Conjur_POC
 
 
             //Nom du compte client auquel l'utilisateur appartient
-            Console.WriteLine(conjurClientDave.GetAccountName());
+            Console.WriteLine(admin.GetAccountName());
            //Nombre de var = 1 
-            Console.WriteLine(conjurClientDave.CountVariables().ToString());
+            Console.WriteLine(admin.CountVariables().ToString());
             //get value of secret var entered in Conjur = "thisIsASecretFromCLI")
-            Console.WriteLine(conjurClientDave.ListVariables().First().GetValue());
-            Console.WriteLine(conjurClientDave.ListVariables("secretVar").First().GetValue());
+            Console.WriteLine(admin.ListVariables().First().GetValue());
+            Console.WriteLine(admin.ListVariables("secretVar").First().GetValue());
 
 
 

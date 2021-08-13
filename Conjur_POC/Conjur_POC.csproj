@@ -54,8 +54,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\conjur-api-dotnet\conjur-api\conjur-api.csproj">
-      <Project>{17d848fc-457d-49f0-b9a3-d87920aa8a8a}</Project>
+    <ProjectReference Include="..\conjur-api\conjur-api.csproj">
+      <Project>{17D848FC-457D-49F0-B9A3-D87920AA8A8A}</Project>
       <Name>conjur-api</Name>
     </ProjectReference>
   </ItemGroup>

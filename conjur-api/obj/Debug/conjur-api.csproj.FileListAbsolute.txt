@@ -1,0 +1,11 @@
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\bin\Debug\conjur-api.dll
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\bin\Debug\conjur-api.pdb
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\obj\Debug\conjur-api.csproj.CoreCompileInputs.cache
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\obj\Debug\conjur-api.dll
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\obj\Debug\conjur-api.pdb
+C:\Users\pw192294\source\repos\conjur-api-dotnet\conjur-api\obj\Debug\conjur-api.csproj.AssemblyReference.cache
+C:\Users\pw192294\Desktop\conjur-poc\conjur-api\bin\Debug\conjur-api.dll
+C:\Users\pw192294\Desktop\conjur-poc\conjur-api\bin\Debug\conjur-api.pdb
+C:\Users\pw192294\Desktop\conjur-poc\conjur-api\obj\Debug\conjur-api.csproj.CoreCompileInputs.cache
+C:\Users\pw192294\Desktop\conjur-poc\conjur-api\obj\Debug\conjur-api.dll
+C:\Users\pw192294\Desktop\conjur-poc\conjur-api\obj\Debug\conjur-api.pdb
